@@ -1,0 +1,19 @@
+<mat-accordion>
+  <mat-expansion-panel hideToggle>
+    <mat-expansion-panel-header>
+      <mat-icon matSuffix>person</mat-icon>
+      <mat-panel-title>
+        Admins
+      </mat-panel-title>
+      <mat-panel-description>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-form-field>
+      <input matInput type="text" [formControl]="searchedAdmin">
+      <mat-icon matPrefix>search</mat-icon>
+    </mat-form-field>
+    <mat-list>
+      <mat-list-item></mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>

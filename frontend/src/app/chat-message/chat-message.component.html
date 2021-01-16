@@ -1,0 +1,17 @@
+  <div class="message-container" fxLayout="row" gdColumns.lt-md="30% 70%" gdColumns.gt-md="10% 90%"  gdAreas="avatar  messageContent" gdAlignColumns="center" >
+      <div fxLayout.gt-md="column" fxLayout.lt-md="column"  ngClass.lt-md="user-resume-sm" ngClass.gt-md="user-resume-lg" gdRows="50% 50%" gdAlignRows="center center" gdAreas="avatar username" fxLayoutAlign="center end">
+        <div  mat-card-avatar class="example-header-image" gdArea="avatar"></div>
+      </div>
+      <div fxLayout="row" fxLayoutAlign="start center" class="row-container" gdArea="messageContent">
+        <div class="text-container">
+            <h5 class="sender-username" gdArea="username">{{this.username ? this.username : 'unknown'}}</h5>
+            <p>{{this.text}}</p>
+            <div *ngIf="this.attachment" class="attachment-container" fxLayoutAlign="start space-between" (click)="redirectToAttachment()">
+                <mat-divider></mat-divider>
+                <mat-icon class="icon">attach_file</mat-icon><span>{{this.attachment.name}}</span>
+            </div>
+        </div>
+      </div>
+  </div>
+
+

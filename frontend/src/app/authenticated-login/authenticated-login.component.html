@@ -1,0 +1,22 @@
+<app-loading-overlay *ngIf="this.isWaiting"></app-loading-overlay>
+<mat-card>
+  <mat-card-title>Login</mat-card-title>
+  <mat-card-content>
+    <div [formGroup]="loginForm">
+      <mat-form-field >
+        <mat-label>Enter your username</mat-label>
+        <input matInput type="text" formControlName="username">
+      </mat-form-field>
+      <br>
+      <mat-form-field >
+        <mat-label>Enter your password</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'"  formControlName="password">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+      <br>
+      <button mat-button color="primary" (click)="submit()">Login</button>
+    </div>
+  </mat-card-content>
+</mat-card>

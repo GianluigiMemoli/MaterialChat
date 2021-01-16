@@ -1,0 +1,54 @@
+.mat-card-lg{
+  max-width: 35vw;
+  
+}
+
+.chat-window-lg{
+  width: 60vw;
+}
+.chat-window-sm{
+  width: 90vw;
+  height: 50vh;
+}
+mat-card-content{
+  /*border: blue 1px solid;*/
+  max-height: 70vh;
+  max-height: 50vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+.chat-container{
+  width: 100vw;
+}
+
+.text-input{
+  margin-top: 0;
+}
+#super-container{
+  border: 1px solid white;
+
+}
+#title{
+
+}
+#text{
+
+}
+#send-btn{
+
+}
+
+#attachment-container{
+  padding: 1em;
+}
+
+#attachment-btn{
+  position: absolute;
+  bottom: 100px;
+}
+
+.attach-test{
+  background: red;
+}

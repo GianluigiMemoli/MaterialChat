@@ -1,0 +1,17 @@
+.main-container{
+ /* border: 6px solid black;*/
+
+}
+.sidenav{
+  /*border: 4px solid green;*/
+}
+
+#sidenav-content{
+  /*border: 1px solid red;*/
+}
+
+#outlet{
+  /*border: 2px solid blue;*/
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,28 @@
+<div class="main-container"  fxLayout="column" fxFlexFill >
+  <mat-sidenav-container class="sidenav" fxFlex="100%"  fxFlexAlign="center center" fxLayout="column" fxFill >
+    <mat-sidenav fxLayout="column" [mode]="this.isMobile ? 'over' : 'side'" [opened]="this.isOpen" (closed)="this.isOpen = false" (opened)="this.isOpen = true">
+      <div  fxLayoutAlign="end">
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+      </div>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="createChatroom">New chatroom</button>
+        <button mat-menu-item routerLink="createAdmin">New admin</button>
+      </mat-menu>
+      <app-profile-card></app-profile-card>
+      <app-chat-room-list></app-chat-room-list>
+      <app-admins-list></app-admins-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <button mat-icon-button color="accent" fxHide.gt-md (click)="isOpen = !isOpen" >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div id="sidenav-content" fxFill fxLayoutAlign="center center" fxLayoutAlign.lt-md="center start">
+      <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+</div>
+

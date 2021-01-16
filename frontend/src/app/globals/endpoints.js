@@ -1,0 +1,20 @@
+export const baseUrl = "http://ec2-15-161-100-201.eu-south-1.compute.amazonaws.com:8000/api";
+//export const baseUrl = "http://localhost:8000/api"
+export const repositoryUrl = "http://ec2-15-161-100-201.eu-south-1.compute.amazonaws.com:8000/storage/";
+export const chatroomRepo = "chatrooms";
+export const chatroomAttachments = "attachments";
+
+export const ADMIN_LOGIN_ENDPOINT = "/admin/login";
+export const GET_ALL_CHATROOMS = '/getAllChatrooms';
+export const GET_CHATROOM_BY_SHAREBLE = '/getChatroomByLink';
+export const CREATE_CHATROOM = '/admin/createChatroom'
+export const CREATE_ADMIN = '/admin/register';
+export const GET_CHATROOM_MESSAGES = '/getChatroomMessages';
+export const SEND_MESSAGE = '/sendMessage';
+export const ADD_PARTECIPANT = '/admin/addPartecipant'
+export const GET_CURRENT_ADMIN = '/admin/getCurrentAdmin';
+export const GET_ALL_ADMINS = '/admin/getAllAdmins';
+export const GET_CHATROOM_PARTECIPANTS = '/getChatroomPartecipants';
+export const ANONYMOUS_LOGIN = '/login';
+export const GET_CURRENT_ROLE = '/currentRole';
+export const ME = '/me';

@@ -1,0 +1,41 @@
+<div ngClass.gt-md="chat-window-lg" ngClass.lt-md="chat-window-sm">
+  <app-loading-overlay *ngIf="isWaiting"></app-loading-overlay>
+<mat-card *ngIf="selectedChatroom" ngClass.gt-md="mat-card-lg">
+  <mat-card-header fxLayout="row" id="super-container">
+    <mat-card-title-group id="title" fxLayout="column" fxFlex="90%" fxLayoutAlign="start">
+      <mat-card-title id="text" fxFlexAlign="end center">{{this.selectedChatroom.name}}</mat-card-title>
+    </mat-card-title-group>
+    <div *ngIf="selectedChatroom.private" id="btn-container" fxLayout="column" fxFlex="10%" fxLayoutAlign="start start">
+      <button  mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon></button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="openDialog()">Add partecipants</button>
+      </mat-menu>
+    </div>
+  </mat-card-header>
+  <mat-divider></mat-divider>
+    <mat-card-content fxLayout="column" fxLayoutAlign="start center">
+      <app-attachment-upload *ngIf="fileUploaded" [attachment]="fileUploaded" (uploadCanceled)="fileUploaded=undefined"></app-attachment-upload>
+      <div *ngIf="!this.fileUploaded">
+        <app-chat-message *ngFor="let msg of this.messages" [username]="msg.sender_username" [text]="msg.text" [attachment]="msg.attachment" [chatroomId]="this.selectedChatroom.id" ></app-chat-message>
+      </div>
+      <div *ngIf="!this.messages"><h3>No messages yet</h3></div>
+      <div id="attachment-container" fxFill fxLayout="column" fxLayoutAlign="end end" >
+        <input type="file" hidden #fileInput (change)="uploadFile($event); $event.target.value = null">
+        <button *ngIf="!this.fileUploaded" id="attachment-btn" fxFlexAlign="end end" type="button" id="attachment-btn" mat-mini-fab (click)="fileUploaded = undefined; fileInput.click();">
+          <mat-icon>attachment</mat-icon>
+        </button>
+      </div>
+    </mat-card-content>
+    <mat-divider></mat-divider>
+    <mat-card-footer>
+      <div fxLayout="row" fxLayoutAlign="center center" >
+        <mat-form-field fxFlex="80%" appearance="standard">
+          <input  class="text-input" matInput type="text" [formControl]="messageText" (keydown.enter)="onSend()">
+          <button id="send-btn" mat-icon-button matSuffix (click)="onSend()" ><mat-icon>send</mat-icon></button>
+        </mat-form-field>
+      </div>
+
+    </mat-card-footer>
+</mat-card>.
+</div>
+

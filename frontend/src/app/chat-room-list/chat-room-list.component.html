@@ -1,0 +1,21 @@
+<mat-accordion>
+  <mat-expansion-panel hideToggle>
+    <mat-expansion-panel-header>
+      <mat-icon>chat_bubble</mat-icon>
+      <mat-panel-title>
+        ChatRooms
+      </mat-panel-title>
+      <mat-panel-description>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-form-field>
+      <input matInput type="text" [formControl]="searchedRoom">
+      <mat-icon matPrefix>search</mat-icon>
+    </mat-form-field>
+    <mat-list *ngFor="let chatroom of (showingChatrooms)">
+      <mat-list-item matRipple [routerLink]="['viewChatroom', chatroom.shareble_link]">
+         {{chatroom.name}} <small *ngIf="chatroom.private">(private)</small>
+      </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>
+</mat-accordion>

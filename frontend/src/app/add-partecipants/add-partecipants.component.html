@@ -1,0 +1,13 @@
+<app-loading-overlay *ngIf="this.isWaiting"></app-loading-overlay>
+<h1 mat-dialog-title> Select admins</h1>
+<div mat-dialog-content>
+  <mat-selection-list [(ngModel)]="this.selectedPartecipants">
+    <mat-list-option #adminsSelected *ngFor="let admin of this.admins" [value]="admin">
+      {{admin.username}}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
+<mat-dialog-actions align="center">
+  <button mat-button mat-dialog-close (click)="submit()">Add</button>
+  <button mat-button >Cancel</button>
+</mat-dialog-actions>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c730765a-c7e1-4e3b-91da-2375b5d3504b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/chat-platform/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/chat-platform/vendor/composer" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/testing" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/graham-campbell/flysystem" />
+      <path value="$PROJECT_DIR$/chat-platform/vendor/graham-campbell/manager" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iSZoe371iMBVTaCAKJF3fgFZ62" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gmemo\PhpstormProjects\chat-platform\chat-platform\routes" />
+      <recent name="C:\Users\Gmemo\PhpstormProjects\chat-platform\chat-platform\app\Providers" />
+      <recent name="C:\Users\Gmemo\PhpstormProjects\chat-platform\chat-platform\config" />
+      <recent name="C:\Users\Gmemo\PhpstormProjects\chat-platform\chat-platform\database\migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gmemo\PhpstormProjects\chat-platform\chat-platform\config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c730765a-c7e1-4e3b-91da-2375b5d3504b" name="Default Changelist" comment="" />
+      <created>1601903129857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601903129857</updated>
+      <workItem from="1601903131024" duration="10491000" />
+      <workItem from="1601999338725" duration="10240000" />
+      <workItem from="1602018807058" duration="1849000" />
+      <workItem from="1602058106387" duration="12169000" />
+      <workItem from="1602334364901" duration="11784000" />
+      <workItem from="1602485230249" duration="14122000" />
+      <workItem from="1602679967534" duration="2912000" />
+      <workItem from="1602703223438" duration="2735000" />
+      <workItem from="1602753172558" duration="11288000" />
+      <workItem from="1602793214646" duration="184000" />
+      <workItem from="1602793553523" duration="1201000" />
+      <workItem from="1602851076536" duration="849000" />
+      <workItem from="1602869979139" duration="985000" />
+      <workItem from="1604058507545" duration="6093000" />
+      <workItem from="1604309241047" duration="262000" />
+      <workItem from="1604349643623" duration="735000" />
+      <workItem from="1604353278348" duration="23000" />
+      <workItem from="1604404720160" duration="1627000" />
+      <workItem from="1604518273567" duration="7777000" />
+      <workItem from="1604604671506" duration="6269000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1602526655434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-822" y="316" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.225.1366.728@-1366.225.1366.728" timestamp="1602421950978" />
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1602526655434" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602704245519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1602704245519" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1604404728407">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1604091320266" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1050/-1366.225.1366.768@0.0.1920.1050" timestamp="1604404728407" />
+    <state x="661" y="244" key="NewPhpClassDialog" timestamp="1604518884884">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-896" y="394" key="NewPhpClassDialog/0.0.1920.1040/-1366.225.1366.728@-1366.225.1366.728" timestamp="1602421922164" />
+    <state x="661" y="242" key="NewPhpClassDialog/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1602768615273" />
+    <state x="661" y="244" key="NewPhpClassDialog/0.0.1920.1050/-1366.225.1366.768@0.0.1920.1050" timestamp="1604518884884" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1604522014823">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050/-1366.225.1366.768@0.0.1920.1050" timestamp="1604522014823" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602019084621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1602019084621" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602767107862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1602767107862" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup" timestamp="1604522126303">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1366.225.1366.728@0.0.1920.1040" timestamp="1602766908858" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/-1366.225.1366.768@0.0.1920.1050" timestamp="1604522126303" />
+  </component>
+</project>
